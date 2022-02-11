@@ -1,0 +1,53 @@
+sno=int(input("enter roll no:"))
+sname=input("enter name:")
+sgroup=input("enter group:")
+s1=int(input("s1 marks:"))
+s2=int(input("s2 marks:"))
+s3=int(input("s3 marks:"))
+s4=int(input("s4 marks:"))
+s5=int(input("s5 marks:"))
+s6=int(input("s6 marks:"))
+total=s1+s2+s3+s4+s5+s6
+print("total=",total)
+avg=total/6
+print("avg=",avg)
+if avg>=91:
+    print("o grade")
+elif avg>=81:
+     print("a grade")
+elif avg>=71:
+     print("b grade")
+elif avg>=61:
+    print("c grade")
+elif avg>=50:
+    print("pass")
+else:
+    print("fail")
+    
+    
+       
+enter roll no:
+24
+enter name:
+P.Divya
+enter group:
+BCA
+s1 marks:
+67
+s2 marks:
+98
+s3 marks:
+91
+s4 marks:
+89
+s5 marks:
+99
+s6 marks:
+67
+total= 511
+avg= 85.16666666666667
+a grade
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
